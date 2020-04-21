@@ -1,0 +1,112 @@
+/Users/arthurcai/CLionProjects/CompSys/cmake-build-debug/CompSys
+
+Welcome to the command shell.
+[DEC] r[0]: 0
+> loadi 20
+[DEC] r[0]: 20
+> loadi 10
+[DEC] r[0]: 10
+> prtrs
+--------------------
+[DEC] r[3]: 0
+[DEC] r[2]: 0
+[DEC] r[1]: 20
+[DEC] r[0]: 10
+--------------------
+[DEC] r[0]: 10
+> div
+[DEC] r[0]: 2
+> prtrs
+--------------------
+[DEC] r[3]: 0
+[DEC] r[2]: 0
+[DEC] r[1]: 0
+[DEC] r[0]: 2
+--------------------
+[DEC] r[0]: 2
+> loadi 3
+[DEC] r[0]: 3
+> rem
+[DEC] r[0]: 2
+> prtrs
+--------------------
+[DEC] r[3]: 0
+[DEC] r[2]: 0
+[DEC] r[1]: 0
+[DEC] r[0]: 2
+--------------------
+[DEC] r[0]: 2
+> storm
+INVALID NUMBER - used 0 instead
+[DEC] r[0]: 0
+> prtrs
+--------------------
+[DEC] r[3]: 0
+[DEC] r[2]: 0
+[DEC] r[1]: 0
+[DEC] r[0]: 0
+--------------------
+[DEC] r[0]: 0
+> loadi 2
+[DEC] r[0]: 2
+> storm 0
+[DEC] r[0]: 0
+> prtms
+--------------------
+[DEC] m[15]: 0
+[DEC] m[14]: 0
+[DEC] m[13]: 0
+[DEC] m[12]: 0
+[DEC] m[11]: 0
+[DEC] m[10]: 0
+[DEC] m[9]: 0
+[DEC] m[8]: 0
+[DEC] m[7]: 0
+[DEC] m[6]: 0
+[DEC] m[5]: 0
+[DEC] m[4]: 0
+[DEC] m[3]: 0
+[DEC] m[2]: 0
+[DEC] m[1]: 0
+[DEC] m[0]: 2
+--------------------
+[DEC] r[0]: 0
+> loadm 0
+[DEC] r[0]: 2
+> prtrs
+--------------------
+[DEC] r[3]: 0
+[DEC] r[2]: 0
+[DEC] r[1]: 0
+[DEC] r[0]: 2
+--------------------
+[DEC] r[0]: 2
+> clrms
+[DEC] r[0]: 2
+> prtms
+--------------------
+[DEC] m[15]: 0
+[DEC] m[14]: 0
+[DEC] m[13]: 0
+[DEC] m[12]: 0
+[DEC] m[11]: 0
+[DEC] m[10]: 0
+[DEC] m[9]: 0
+[DEC] m[8]: 0
+[DEC] m[7]: 0
+[DEC] m[6]: 0
+[DEC] m[5]: 0
+[DEC] m[4]: 0
+[DEC] m[3]: 0
+[DEC] m[2]: 0
+[DEC] m[1]: 0
+[DEC] m[0]: 0
+--------------------
+[DEC] r[0]: 2
+> quit
+EXIT encountered.
+
+End Program.
+
+
+Process finished with exit code 0

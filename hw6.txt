@@ -1,0 +1,55 @@
+/Users/arthurcai/CLionProjects/CompSys/cmake-build-debug/CompSys
+
+Welcome to the command shell...now with memory!
+[DEC] r[0]: 0
+> loadi 10
+[DEC] r[0]: 10
+> loadi 20
+[DEC] r[0]: 20
+> loadi 30
+[DEC] r[0]: 30
+> storm 1
+[DEC] r[0]: 20
+> storm 2
+[DEC] r[0]: 10
+> storm 3
+[DEC] r[0]: 0
+> run testrun.txt
+=====================
+RUN - start to read from file: testrun.txt
+=====================
+[DEC] r[0]: 0
+RUN> echo hello
+hello
+[DEC] r[0]: 0
+RUN> echo extraCredit
+extraCredit
+[DEC] r[0]: 0
+RUN> loadm 1
+[DEC] r[0]: 30
+RUN> loadm 2
+[DEC] r[0]: 20
+RUN> add
+[DEC] r[0]: 50
+RUN> loadm 1
+[DEC] r[0]: 30
+RUN> loadm 3
+[DEC] r[0]: 10
+RUN> sub
+[DEC] r[0]: 20
+RUN> mul
+[DEC] r[0]: 1000
+RUN> inc
+[DEC] r[0]: 1001
+=====================
+RUN - END run file
+=====================
+NOP
+[DEC] r[0]: 1001
+> exit
+EXIT encountered.
+
+End Program.
+
+
+Process finished with exit code 0

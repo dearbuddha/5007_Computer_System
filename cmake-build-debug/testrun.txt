@@ -1,0 +1,10 @@
+echo hello
+echo extraCredit
+loadm 1
+loadm 2
+add
+loadm 1
+loadm 3
+sub
+mul
+inc

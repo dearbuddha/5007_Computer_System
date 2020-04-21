@@ -1,0 +1,59 @@
+/Users/arthurcai/CLionProjects/CompSys/cmake-build-debug/CompSys
+
+Welcome to the command shell.
+[DEC] r[0]: 0
+> mode hex
+[HEX] r[0]: 0
+> loadi a
+INVALID NUMBER - used 0 instead
+[HEX] r[0]: 0
+> loadi 0xa
+[HEX] r[0]: 0xa
+> loadi 0x8e4f
+[HEX] r[0]: 0x8e4f
+> prtrs
+--------------------
+[HEX] r[3]: 0
+[HEX] r[2]: 0
+[HEX] r[1]: 0xa
+[HEX] r[0]: 0x8e4f
+--------------------
+[HEX] r[0]: 0x8e4f
+> loadi 1653
+INVALID NUMBER - used 0 instead
+[HEX] r[0]: 0
+> prtrs
+--------------------
+[HEX] r[3]: 0
+[HEX] r[2]: 0xa
+[HEX] r[1]: 0x8e4f
+[HEX] r[0]: 0
+--------------------
+[HEX] r[0]: 0
+> mode dec
+[DEC] r[0]: 0
+> prtrs
+--------------------
+[DEC] r[3]: 0
+[DEC] r[2]: 10
+[DEC] r[1]: 36431
+[DEC] r[0]: 0
+--------------------
+[DEC] r[0]: 0
+> mode hex
+[HEX] r[0]: 0
+> prtrs
+--------------------
+[HEX] r[3]: 0
+[HEX] r[2]: 0xa
+[HEX] r[1]: 0x8e4f
+[HEX] r[0]: 0
+--------------------
+[HEX] r[0]: 0
+> exit
+EXIT encountered.
+
+End Program.
+
+
+Process finished with exit code 0

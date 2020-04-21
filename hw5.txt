@@ -1,0 +1,57 @@
+/Users/arthurcai/CLionProjects/CompSys/cmake-build-debug/CompSys
+
+Welcome to the command shell.
+[DEC] r[0]: 0
+> loadi 1
+[DEC] r[0]: 1
+> loadi 2
+[DEC] r[0]: 2
+> loadi 3
+[DEC] r[0]: 3
+> loadi 4
+[DEC] r[0]: 4
+> inc
+[DEC] r[0]: 5
+> dec
+[DEC] r[0]: 4
+> neg
+[DEC] r[0]: -4
+> FSTOR fn.txt
+[DEC] r[0]: -4
+> fload fn.txt
+[DEC] r[0]: -4
+> prtrs
+--------------------
+[DEC] r[3]: 1
+[DEC] r[2]: 2
+[DEC] r[1]: 3
+[DEC] r[0]: -4
+--------------------
+[DEC] r[0]: -4
+> prtms
+--------------------
+[DEC] m[15]: 0
+[DEC] m[14]: 0
+[DEC] m[13]: 0
+[DEC] m[12]: 0
+[DEC] m[11]: 0
+[DEC] m[10]: 0
+[DEC] m[9]: 0
+[DEC] m[8]: 0
+[DEC] m[7]: 0
+[DEC] m[6]: 0
+[DEC] m[5]: 0
+[DEC] m[4]: 0
+[DEC] m[3]: 0
+[DEC] m[2]: 0
+[DEC] m[1]: 0
+[DEC] m[0]: 0
+--------------------
+[DEC] r[0]: -4
+> exit
+EXIT encountered.
+
+End Program.
+
+
+Process finished with exit code 0

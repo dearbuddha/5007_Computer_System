@@ -1,0 +1,77 @@
+/Users/arthurcai/CLionProjects/CompSys/cmake-build-debug/CompSys
+
+Welcome to the command shell.
+[DEC] r[0]: 0
+> NOP
+NOP
+[DEC] r[0]: 0
+> loadi 1
+[DEC] r[0]: 1
+> prtrs
+--------------------
+[DEC] r[3]: 0
+[DEC] r[2]: 0
+[DEC] r[1]: 0
+[DEC] r[0]: 1
+--------------------
+[DEC] r[0]: 1
+> add
+[DEC] r[0]: 1
+> prtrs
+--------------------
+[DEC] r[3]: 0
+[DEC] r[2]: 0
+[DEC] r[1]: 0
+[DEC] r[0]: 1
+--------------------
+[DEC] r[0]: 1
+> loadi 3
+[DEC] r[0]: 3
+> prtrs
+--------------------
+[DEC] r[3]: 0
+[DEC] r[2]: 0
+[DEC] r[1]: 1
+[DEC] r[0]: 3
+--------------------
+[DEC] r[0]: 3
+> add
+[DEC] r[0]: 4
+> prtrs
+--------------------
+[DEC] r[3]: 0
+[DEC] r[2]: 0
+[DEC] r[1]: 0
+[DEC] r[0]: 4
+--------------------
+[DEC] r[0]: 4
+> help
+EXIT: exit from shell
+QUIT: exit from shell
+LOADI: load (immediate) arg into r[0] and push the other registers up
+PRTRS: print out the value of all the registers
+ECHO: echo arg
+CLRRS: clear all 4 registers
+ADD: r[0] + r[1], put answer into r[0], move 0->r[3], r[3]->r[2], r[2]->r[1]
+HELP: print out short description of all valid commands
+NOP: No operation[DEC] r[0]: 4
+> clrrs
+[DEC] r[0]: 0
+> rs
+>> Unknown Command |RS||
+[DEC] r[0]: 0
+> prtrs
+--------------------
+[DEC] r[3]: 0
+[DEC] r[2]: 0
+[DEC] r[1]: 0
+[DEC] r[0]: 0
+--------------------
+[DEC] r[0]: 0
+> exit
+EXIT encountered.
+
+End Program.
+
+
+Process finished with exit code 0
